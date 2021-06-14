@@ -30,6 +30,7 @@ add_executable(CBasic193 part1/Chap1.9.3.c)
 add_executable(CBasic194 part1/Chap1.9.4.c)
 add_executable(CBasic110 part1/Chap1.10.c)
 
+add_executable(CBasic22 part2/Chap2.2.c)
 
 
 
