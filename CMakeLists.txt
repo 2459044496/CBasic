@@ -1,0 +1,36 @@
+cmake_minimum_required(VERSION 3.17)
+project(CBasic C)
+
+set(CMAKE_C_STANDARD 99)
+
+add_executable(CBasic main.c)
+add_executable(CBasic11 part1/Chap1.1.c)
+add_executable(CBasic12 part1/Chap1.2.c)
+add_executable(CBasic121 part1/Chap1.2.1.c)
+add_executable(CBasic122 part1/Chap1.2.2.c)
+add_executable(CBasic13 part1/Chap1.3.c)
+add_executable(CBasic131 part1/Chap1.3.1.c)
+add_executable(CBasic14 part1/Chap1.4.c)
+add_executable(CBasic151 part1/Chap1.5.1.c)
+add_executable(CBasic1511 part1/Chap1.5.1.1.c)
+add_executable(CBasic152 part1/Chap1.5.2.c)
+add_executable(CBasic153 part1/Chap1.5.3.c)
+add_executable(CBasic1531 part1/Chap1.5.3.1.c)
+add_executable(CBasic1532 part1/Chap1.5.3.2.c)
+add_executable(CBasic1533 part1/Chap1.5.3.3.c)
+add_executable(CBasic154 part1/Chap1.5.4.c)
+add_executable(CBasic1541 part1/Chap1.5.4.1.c)
+add_executable(CBasic156 part1/Chap1.6.c)
+add_executable(CBasic157 part1/Chap1.7.c)
+add_executable(CBasic1571 part1/Chap1.7.1.c)
+add_executable(CBasic19 part1/Chap1.9.c)
+add_executable(CBasic191 part1/Chap1.9.1.c)
+add_executable(CBasic192 part1/Chap1.9.2.c)
+add_executable(CBasic193 part1/Chap1.9.3.c)
+add_executable(CBasic194 part1/Chap1.9.4.c)
+add_executable(CBasic110 part1/Chap1.10.c)
+
+
+
+
+
