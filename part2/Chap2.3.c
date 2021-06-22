@@ -91,7 +91,7 @@
  * */
 
 #include <stdio.h>
-#include <string.h>
+//#include <string.h>
 
 #define oNumber 012 // 八进制数，以0开头
 #define xNumber 0X12 // 十六进制数，以0x或0X开头
