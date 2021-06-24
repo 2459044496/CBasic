@@ -89,9 +89,13 @@ int main() {
     unsigned int m = 101010;
     printf("\ngetbits返回结果%d", getbits(m, 2, 3));
 
+    unsigned int n = 10010111;
+    printf("\ngetbits返回结果%d", getbits(m, 4, 2));
     return 0;
 }
 
+// 这里假定最右边的一位是第0位，n与p都是合理的正值。
+// 例如getbits（x，4，3）返回x中的第4、3、2三位的值。
 unsigned getbits(unsigned x,int p,int n) {
     // x >> (p+1-n)将期望获得的字段移位到字的最右端。
     // ~0的所有位都为1，这里使用语句~0<<n将~0左移n位，并将最右边的n位用0填补。
