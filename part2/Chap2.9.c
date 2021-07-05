@@ -91,6 +91,14 @@ int main() {
 
     unsigned int n = 10010111;
     printf("\ngetbits返回结果%d", getbits(m, 4, 2));
+
+    // 通过 a^b^b=a，不使用中间变量实现交换两数
+    unsigned int num1 = 20;
+    unsigned int num2 = 30;
+    num1 = num1 ^ num2;
+    num2 = num1 ^ num2;
+    num1 = num1 ^ num2;
+    printf("\n num1:value=%d\n num2:value=%d", num1, num2);
     return 0;
 }
 

@@ -32,6 +32,7 @@
 
 #include <ctype.h>
 #include <stdio.h>
+#include <string.h>
 
 /*
  * 如果有空白符的话，则跳过
@@ -40,10 +41,21 @@
  * */
 int atoi(char s[]);
 
+// shellsort函数；按照递增顺序对v[0]...v[n-1]进行排序
+void shellsort(int v[], int n);
+
+// 倒置字符串s中各个字符的位置
+void reverse(char s[]);
 
 int main() {
     char s[] = {'3', '1', '+', 'a', '-'};
     printf("value: %d", atoi(s));
+    int i1[] = {3, 1, 2, 6, 10};
+    shellsort(i1, 5);
+    reverse(s);
+    for (int i = 0; i < strlen(s); ++i) {
+        printf("\n %c", s[i]);
+    }
     return 0;
     /* 输出
      * n value:3
@@ -70,3 +82,29 @@ int atoi(char s[]) {
     return sign * n;
 }
 
+void shellsort(int v[], int n) {
+    int gap, i, j, temp;
+
+    for (gap = n/2; gap > 0 ; gap /= 2) {
+        for (i = gap; i < n; i++) {
+            for (j = i - gap; j >= 0 && v[j] > v[j + gap]; j -= gap) {
+                temp = v[j];
+                v[j] = v[j + gap];
+                v[j + gap] = temp;
+            }
+        }
+    }
+    for (int k = 0; k < n; ++k) {
+        printf("\n%d", v[k]);
+    }
+}
+
+void reverse(char s[]) {
+    int c, i, j;
+
+    for (i = 0, j = strlen(s)-1 ; i < j ; i++, j--) {
+        c = s[i];
+        s[i] = s[j];
+        s[j] = c;
+    }
+}

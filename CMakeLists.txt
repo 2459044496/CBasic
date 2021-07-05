@@ -41,6 +41,9 @@ add_executable(CBasic210 part2/Chap2.10.c)
 add_executable(CBasic33 part3/Chap3.3.c)
 add_executable(CBasic34 part3/Chap3.4.c)
 add_executable(CBasic35 part3/Chap3.5.c)
+add_executable(CBasic36 part3/Chap3.6.c)
+add_executable(CBasic37 part3/Chap3.7.c)
+add_executable(CBasic38 part3/Chap3.8.c)
 
 
 
