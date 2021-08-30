@@ -58,5 +58,18 @@ add_executable(CPrimerPlus26 CPrimerPlus/part2/Practice6.c)
 add_executable(CPrimerPlus27 CPrimerPlus/part2/Practice7.c)
 add_executable(CPrimerPlus28 CPrimerPlus/part2/Practice8.c)
 
+add_executable(CPrimerPlus31 CPrimerPlus/part3/Platinum.c)
+add_executable(CPrimerPlus32 CPrimerPlus/part3/Print1.c)
+add_executable(CPrimerPlus33 CPrimerPlus/part3/Bases.c)
+add_executable(CPrimerPlus34 CPrimerPlus/part3/Toobig.c)
+add_executable(CPrimerPlus35 CPrimerPlus/part3/Print2.c)
+add_executable(CPrimerPlus36 CPrimerPlus/part3/Charcode.c)
+add_executable(CPrimerPlus37 CPrimerPlus/part3/Altnames.c)
+add_executable(CPrimerPlus38 CPrimerPlus/part3/Showf_pt.c)
+add_executable(CPrimerPlus39 CPrimerPlus/part3/Floaterr.c)
+add_executable(CPrimerPlus310 CPrimerPlus/part3/Typesize.c)
+add_executable(CPrimerPlus311 CPrimerPlus/part3/BadCount.c)
+add_executable(CPrimerPlus312 CPrimerPlus/part3/Escape.c)
+
 
 

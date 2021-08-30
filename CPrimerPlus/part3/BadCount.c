@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+// 参数错误的情况
+int main(void) {
+    int n = 4;
+    int m = 5;
+    float f = 7.0f;
+    float g = 8.0f;
+    printf("%d\n", n, m);// 参数太多
+    printf("%d %d %d\n", n, m);// 参数太少
+    printf("%d %d\n", f, g);// 值的类型不匹配
+
+    // 与机器有关
+    // 4
+    // 4 5 6480448
+    // 0 0
+    return 0;
+}
