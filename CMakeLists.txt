@@ -70,6 +70,9 @@ add_executable(CPrimerPlus39 CPrimerPlus/part3/Floaterr.c)
 add_executable(CPrimerPlus310 CPrimerPlus/part3/Typesize.c)
 add_executable(CPrimerPlus311 CPrimerPlus/part3/BadCount.c)
 add_executable(CPrimerPlus312 CPrimerPlus/part3/Escape.c)
+add_executable(CPrimerPlus313 CPrimerPlus/part3/Practice1.c)
+add_executable(CPrimerPlus314 CPrimerPlus/part3/Practice2.c)
+
 
 
 
