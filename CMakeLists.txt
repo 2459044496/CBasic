@@ -73,6 +73,16 @@ add_executable(CPrimerPlus312 CPrimerPlus/part3/Escape.c)
 add_executable(CPrimerPlus313 CPrimerPlus/part3/Practice1.c)
 add_executable(CPrimerPlus314 CPrimerPlus/part3/Practice2.c)
 
+add_executable(CPrimerPlus40 CPrimerPlus/part4/TalkBack.c)
+add_executable(CPrimerPlus41 CPrimerPlus/part4/Praise1.c)
+add_executable(CPrimerPlus42 CPrimerPlus/part4/Praise2.c)
+add_executable(CPrimerPlus43 CPrimerPlus/part4/Pizza.c)
+add_executable(CPrimerPlus44 CPrimerPlus/part4/Defines.c)
+add_executable(CPrimerPlus45 CPrimerPlus/part4/UsePrintf.c)
+add_executable(CPrimerPlus46 CPrimerPlus/part4/Width.c)
+
+
+
 
 
 

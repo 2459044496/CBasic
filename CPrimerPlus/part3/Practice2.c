@@ -3,7 +3,7 @@
 // 每年的秒数
 #define SECONDSFORYEAY 3.156e7
 
-int main() {
+int main(void) {
     // 编程练习2：编写一个程序，要求提示输入一个ASCII码值（如，66），然后打印输入的字符。
     int asciiCode;
     printf("Enter a ascii code:");
