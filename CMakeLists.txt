@@ -80,6 +80,12 @@ add_executable(CPrimerPlus43 CPrimerPlus/part4/Pizza.c)
 add_executable(CPrimerPlus44 CPrimerPlus/part4/Defines.c)
 add_executable(CPrimerPlus45 CPrimerPlus/part4/UsePrintf.c)
 add_executable(CPrimerPlus46 CPrimerPlus/part4/Width.c)
+add_executable(CPrimerPlus47 CPrimerPlus/part4/Floats.c)
+add_executable(CPrimerPlus48 CPrimerPlus/part4/Flag.c)
+add_executable(CPrimerPlus49 CPrimerPlus/part4/Stringf.c)
+add_executable(CPrimerPlus410 CPrimerPlus/part4/Prntval.c)
+add_executable(CPrimerPlus411 CPrimerPlus/part4/Longstrg.c)
+add_executable(CPrimerPlus412 CPrimerPlus/part4/Input.c)
 
 
 
