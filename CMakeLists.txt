@@ -86,8 +86,8 @@ add_executable(CPrimerPlus49 CPrimerPlus/part4/Stringf.c)
 add_executable(CPrimerPlus410 CPrimerPlus/part4/Prntval.c)
 add_executable(CPrimerPlus411 CPrimerPlus/part4/Longstrg.c)
 add_executable(CPrimerPlus412 CPrimerPlus/part4/Input.c)
-
-
+add_executable(CPrimerPlus413 CPrimerPlus/part4/Varwid.c)
+add_executable(CPrimerPlus414 CPrimerPlus/part4/Skip2.c)
 
 
 
