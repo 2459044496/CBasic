@@ -88,6 +88,12 @@ add_executable(CPrimerPlus411 CPrimerPlus/part4/Longstrg.c)
 add_executable(CPrimerPlus412 CPrimerPlus/part4/Input.c)
 add_executable(CPrimerPlus413 CPrimerPlus/part4/Varwid.c)
 add_executable(CPrimerPlus414 CPrimerPlus/part4/Skip2.c)
+add_executable(CPrimerPlus415 CPrimerPlus/part4/Practice23.c)
+add_executable(CPrimerPlus416 CPrimerPlus/part4/Practice59.c)
+add_executable(CPrimerPlus417 CPrimerPlus/part4/ProgramPractice12.c)
+add_executable(CPrimerPlus418 CPrimerPlus/part4/ProgramPractice34.c)
+add_executable(CPrimerPlus419 CPrimerPlus/part4/ProgramPractice56.c)
+add_executable(CPrimerPlus420 CPrimerPlus/part4/ProgramPractice7.c)
 
 
 
