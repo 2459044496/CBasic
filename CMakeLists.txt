@@ -95,6 +95,11 @@ add_executable(CPrimerPlus418 CPrimerPlus/part4/ProgramPractice34.c)
 add_executable(CPrimerPlus419 CPrimerPlus/part4/ProgramPractice56.c)
 add_executable(CPrimerPlus420 CPrimerPlus/part4/ProgramPractice7.c)
 
-
+add_executable(CPrimerPlus50 CPrimerPlus/part5/Shoes2.c)
+add_executable(CPrimerPlus51 CPrimerPlus/part5/Divide.c)
+add_executable(CPrimerPlus52 CPrimerPlus/part5/Sizeof.c)
+add_executable(CPrimerPlus53 CPrimerPlus/part5/Addemup.c)
+add_executable(CPrimerPlus54 CPrimerPlus/part5/Convert.c)
+add_executable(CPrimerPlus55 CPrimerPlus/part5/Pound.c)
 
 
