@@ -102,4 +102,11 @@ add_executable(CPrimerPlus53 CPrimerPlus/part5/Addemup.c)
 add_executable(CPrimerPlus54 CPrimerPlus/part5/Convert.c)
 add_executable(CPrimerPlus55 CPrimerPlus/part5/Pound.c)
 
+add_executable(CPrimerPlus60 CPrimerPlus/part6/Summing.c)
+add_executable(CPrimerPlus61 CPrimerPlus/part6/Cmpflt.c)
+add_executable(CPrimerPlus62 CPrimerPlus/part6/TrueAndFalse.c)
+add_executable(CPrimerPlus63 CPrimerPlus/part6/Boolean.c)
+add_executable(CPrimerPlus64 CPrimerPlus/part6/Sweetie.c)
+add_executable(CPrimerPlus65 CPrimerPlus/part6/Power.c)
+
 
