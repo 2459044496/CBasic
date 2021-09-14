@@ -109,4 +109,6 @@ add_executable(CPrimerPlus63 CPrimerPlus/part6/Boolean.c)
 add_executable(CPrimerPlus64 CPrimerPlus/part6/Sweetie.c)
 add_executable(CPrimerPlus65 CPrimerPlus/part6/Power.c)
 
+add_executable(CPrimerPlus70 CPrimerPlus/part7/WordCnt.c)
+
 
