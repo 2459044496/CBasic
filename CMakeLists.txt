@@ -111,4 +111,11 @@ add_executable(CPrimerPlus65 CPrimerPlus/part6/Power.c)
 
 add_executable(CPrimerPlus70 CPrimerPlus/part7/WordCnt.c)
 
+add_executable(CPrimerPlus80 CPrimerPlus/part8/Echo.c)
+add_executable(CPrimerPlus81 CPrimerPlus/part8/Guess.c)
+add_executable(CPrimerPlus82 CPrimerPlus/part8/ShowChar.c)
+add_executable(CPrimerPlus83 CPrimerPlus/part8/Input.c)
+add_executable(CPrimerPlus84 CPrimerPlus/part8/Checking.c)
+add_executable(CPrimerPlus85 CPrimerPlus/part8/Menuette.c)
+
 
